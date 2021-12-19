@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // week 6.1
+=======
+// 6.1
+>>>>>>> 7abbae6dd294077c15196d5c90f5de6028c7fe5d
 //King AJ Magalona 
 public class Subsets {
    
