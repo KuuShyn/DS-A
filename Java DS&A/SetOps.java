@@ -1,5 +1,4 @@
-/*
-    6.1
+/*    6.1
 
 Version 2.0 Charot hahhaa 
     ChangeLog:
