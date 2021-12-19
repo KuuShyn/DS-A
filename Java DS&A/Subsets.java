@@ -1,4 +1,5 @@
-//King AJ Magalona  
+// week 6.1
+//King AJ Magalona 
 public class Subsets {
    
     public static int cardinality(int[] value){
