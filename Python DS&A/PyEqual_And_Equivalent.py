@@ -1,3 +1,5 @@
+# week 6.2
+
 # King Aj Magalona
 # A = {1, 3, 5, 7, 9}
 # B = {3, 5, 1, 9, 7}
