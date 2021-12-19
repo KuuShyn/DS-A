@@ -1,3 +1,3 @@
 # Data Structures and Algorithm
 
-For Learning Purposes only Yep - King Aj Magalona
+For Education Purposes only Yep - King Aj Magalona
