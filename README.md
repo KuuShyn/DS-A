@@ -1,3 +1,5 @@
 # Data Structures and Algorithm
 
-For Learning Purposes only Yep - King Aj Magalona
+well actually Discrete Structures welp same thing i guess
+
+For Education Purposes only Yep - King Aj Magalona
