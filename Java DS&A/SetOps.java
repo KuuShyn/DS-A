@@ -8,11 +8,11 @@ Version 2.0 Charot hahhaa
     phew hehehe
 */
 
-//King Aj Magalona - BSCS
+//King Aj Magalona - BSCS A121
 public class SetOps {
     public static int[] extractDifference(int a[], int b[]){
         int temp[] = new int[a.length + b.length];
-        //King Aj Magalona BSCS
+        //King Aj Magalona BSCS A121
         int i = 0, j = 0, count = 0;
         while (i < a.length && j < b.length) {
             
@@ -50,7 +50,7 @@ public class SetOps {
             hold[i] = temp[i];
         return hold;
     }
-    //King Aj Magalona - BSCS
+    //King Aj Magalona - BSCS A121
 
     public static int[] extractSymDiff(int a[], int b[]){
         int temp[] = new int[a.length + b.length];
@@ -233,7 +233,7 @@ public class SetOps {
         int b[] = {4, 2, 2, 4, 1, 8, 6, 7}; //Testing Sets
 
         // 👍👍👍👍👍 - Unicode thumbs up \uD83D\uDC4D
-        printf("\uD83D\uDC4D \033[32mKing Aj Magalona - 1st year BSCS\033[0m \uD83D\uDC4D \n\n");
+        printf("\uD83D\uDC4D \033[32mKing Aj Magalona - 1st year BSCS A121\033[0m \uD83D\uDC4D \n\n");
 
         printf("set A \t\t\t\t\t: ", a);
         printf("\nset B \t\t\t\t\t: ", b);
@@ -244,9 +244,9 @@ public class SetOps {
         printf("\nDifference of A and B \t\t\t: ", difference(a, b));
         printf("\nSymmetric Difference of A and B \t: ", sysmmetricDifference(a, b));
         
-        printf(" \n\n👍 No built-in or third party packages/functions used like hashset, arraylist, arrayS.. yeeh -\033[32m King Aj Magalona - 1st year BSCS\033[0m 👍");
+        printf(" \n\n👍 No built-in or third party packages/functions used like hashset, arraylist, arrayS.. yeeh -\033[32m King Aj Magalona - 1st year BSCS A121\033[0m 👍");
         //Type 'chcp 65001' in terminal/console run again if you're using vscode and if emojis doesn't show
     }   //emojis should show in other IDEs
     
-    //King Aj Magalona - BSCS
+    //King Aj Magalona - BSCS A121
 }
