@@ -1,4 +1,7 @@
-/*Version 2.0 Charot hahhaa 
+/*
+    6.1
+
+Version 2.0 Charot hahhaa 
     ChangeLog:
         *Fixed some bugs Difference and symmetric difference does not handle duplicates
         
