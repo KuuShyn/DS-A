@@ -1,4 +1,4 @@
-//King AJ Magalona 
+//King AJ Magalona  
 public class Subsets {
    
     public static int cardinality(int[] value){
