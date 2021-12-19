@@ -1,6 +1,7 @@
 /*Version 2.0 Charot hahhaa
     ChangeLog:
-        *Fixed some bugs Difference and symmetric difference does not handle duplicates
+        *Fixed some bugs Intersect, Difference and symmetric difference does not handle duplicates
+        
     
     phew hehehe
 */
@@ -184,8 +185,11 @@ public class SetOps {
 //King Aj Magalona - BSCS  
     public static int[] intersect(int a[], int b[]){  
         int sA[] = iSort(a);
-        int sB[] = iSort(b);      
-        return extractIntersect(sA, sB);
+        int dA[] = distinct(sA);
+        
+        int sB[] = iSort(b);
+        int dB[] = distinct(sB);      
+        return extractIntersect(dA, dB);
     }
 
     public static int[] union(int a[], int b[]){
