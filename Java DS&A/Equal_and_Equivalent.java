@@ -1,4 +1,5 @@
-// King Aj C. Magalona 
+// 6.2 
+//King Aj C. Magalona 
 public class Equal_and_Equivalent {
     public static int cardinality(int value[]){
         return value.length; 
