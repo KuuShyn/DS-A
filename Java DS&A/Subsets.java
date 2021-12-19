@@ -75,11 +75,11 @@ public class Subsets {
         // int[] a = {2, 4, 6};
         // int[] b = {2, 4, 6};
 
-        int[] a = {1, 2, 3, 4, 5}; 
-        int[] b = {1, 2, 6};     //My Inputs
+        // int[] a = {1, 2, 3, 4, 5}; 
+        // int[] b = {1, 2, 6};     //My Inputs
 
-        // int[] a = {1, 5, 6, 4, 9, 2, 0};
-        // int[] b = {5, 4, 9, 6, 2};  //My Inputs
+        int[] a = {1, 5, 6, 4, 9, 2, 0};
+        int[] b = {5, 4, 9, 6, 2};  //My Inputs
 
         bSort(a);
         bSort(b);
