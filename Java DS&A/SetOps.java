@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* week  6.3
+=======
+/*    6.3
+>>>>>>> 7abbae6dd294077c15196d5c90f5de6028c7fe5d
 
 Version 2.0 Charot hahhaa 
     ChangeLog:
