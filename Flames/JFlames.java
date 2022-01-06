@@ -12,6 +12,10 @@ Discrete Structures - M2 Summative
         M - Marriage
         E - Enemy
         S - Sibling
+
+
+        if you're using vscode and emoji's wont show type "chcp 65001" in the terminal (Java Debug Console)
+        emojis should show in other IDE if not welp just remove the unicodes hehehe
 */
 
 import java.util.Scanner;
