@@ -1,5 +1,3 @@
-// King Aj Magalona BS-CS A121
-
 /*
 King Aj Magalona BS-CS A121
 Discrete Structures - M2 Summative
@@ -14,8 +12,9 @@ Discrete Structures - M2 Summative
         S - Sibling
 
 
-        if you're using vscode and emoji's wont show type "chcp 65001" in the terminal (Java Debug Console)
-        emojis should show in other IDE if not welp just remove the unicodes hehehe
+    if you're using vscode and emoji's wont show type "chcp 65001" in the terminal (Java Debug Console)
+    emojis should show in other IDE.. if not welp just remove the unicodes hehehe
+
 */
 
 import java.util.Scanner;
@@ -38,18 +37,16 @@ public class JFlames {
 
         input.close();
 
-        String a = common(Your_Name, Partner_Name);
-        String b = common(Partner_Name, Your_Name);
-
-        int total = a.length() + b.length();
+        String a = removeCommon(Your_Name, Partner_Name);
+        String b = removeCommon(Partner_Name, Your_Name);
 
         System.out.printf("\n\u001B[32mYour name\u001B[0m\t: %1$-45s \u001B[35mCount/Remaining:\u001B[0m %2$1s",
                 toArrayChar(a), a.length());
         System.out.printf("\n\u001B[32mPartner name\u001B[0m\t: %1$-45s \u001B[35mCount/Remaining:\u001B[0m %2$1s",
                 toArrayChar(b), b.length());
 
-        System.out.printf("\n\n\u001B[34mTotal Count:\u001B[0m %1$1s", total);
-        printflames(total);
+        System.out.printf("\n\n\u001B[34mTotal Count:\u001B[0m %1$1s", a.length() + b.length());
+        printflames(a.length() + b.length());
 
         System.out.println(
                 "\n\uD83D\uDC98" + "\uD83D\uDD25" + "============\u001B[31mFLAMES\u001B[0m============" + "\uD83D\uDD25"
@@ -70,8 +67,8 @@ public class JFlames {
         return hold;
     }
 
-    // King Aj Magalona BS-CS A121
-    public static String common(String a, String b) {
+    // King Aj Magalona BSCS-A121
+    public static String removeCommon(String a, String b) {
         String commonChars = "";
         for (int i = 0; i < a.length(); i++) {
             for (int j = 0; j < b.length(); j++) {
@@ -87,6 +84,7 @@ public class JFlames {
         return a;
     }
 
+    // King Aj Magalona BSCS-A121
     public static void printflames(int n) {
         String flames = "FLAMES";
 
