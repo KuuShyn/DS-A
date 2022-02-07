@@ -1,3 +1,4 @@
+
 // import java.util.Arrays;
 import java.util.Scanner;
 
@@ -14,15 +15,14 @@ public class MatrixMultiplication {
         int row, col;
         while (true) {
             System.out.printf("\nEnter number of rows of Matrix %s: ", chr);
-            
-            try{
+
+            try {
                 row = input.nextInt();
                 if (row < 1)
-                    System.out.println("Error, Negative numbers and zero are not allowed");            
+                    System.out.println("Error, Negative numbers and zero are not allowed");
                 else
                     break;
-            }
-            catch(Exception e){
+            } catch (Exception e) {
                 System.out.println("Error, You cannot input letters it has to be numbers");
                 input.next();
             }
@@ -30,18 +30,17 @@ public class MatrixMultiplication {
 
         while (true) {
             System.out.printf("\nEnter number of columns of Matrix %s: ", chr);
-           
-            try{
+
+            try {
                 col = input.nextInt();
                 if (col < 1)
                     System.out.println("Error, Negative numbers and zero are not allowed");
                 else
                     break;
-            }
-            catch (Exception e){               
+            } catch (Exception e) {
                 System.out.println("Error, You cannot input letters it has to be numbers");
                 input.next();
-                
+
             }
         }
 
@@ -85,24 +84,22 @@ public class MatrixMultiplication {
     }
 
     public static void displayMatrix(int matrix[][], String chr) {
-        // System.out.printf("\nMatrix of %s:\n", chr);
+        System.out.printf("\nMatrix of %s:\n", chr);
         // for (int[] element : matrix)
-        //     System.out.println(Arrays.toString(element));
+        // System.out.println(Arrays.toString(element));
 
-        //     // incase Arrays is not allowed
-        
         // ===================================
-        for (int i = 0; i < matrix.length; i++) {
-        System.out.print("[");
-        for(int j = 0; j < matrix[i].length; j++) 
-        {System.out.print(matrix[i][j]); 
-        if (j < matrix[i].length-1) {
-            System.out.print(", ");}
-        }
-        System.out.println("]");
-    }
-     
-    
 
-}
+        for (int i = 0; i < matrix.length; i++) {
+            System.out.print("[");
+            for (int j = 0; j < matrix[i].length; j++) {
+                System.out.print(matrix[i][j]);
+                if (j < matrix[i].length - 1) 
+                    System.out.print(", ");
+                
+            }
+            System.out.println("]");
+        }
+
+    }
 }
