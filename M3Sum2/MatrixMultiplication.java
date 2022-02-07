@@ -1,4 +1,4 @@
-import java.util.Arrays;
+// import java.util.Arrays;
 import java.util.Scanner;
 
 public class MatrixMultiplication {
@@ -85,10 +85,24 @@ public class MatrixMultiplication {
     }
 
     public static void displayMatrix(int matrix[][], String chr) {
-        System.out.printf("\nMatrix of %s:\n", chr);
-        for (int[] element : matrix)
-            System.out.println(Arrays.toString(element));
+        // System.out.printf("\nMatrix of %s:\n", chr);
+        // for (int[] element : matrix)
+        //     System.out.println(Arrays.toString(element));
 
+        //     // incase Arrays is not allowed
+        
+        // ===================================
+        for (int i = 0; i < matrix.length; i++) {
+        System.out.print("[");
+        for(int j = 0; j < matrix[i].length; j++) 
+        {System.out.print(matrix[i][j]); 
+        if (j < matrix[i].length-1) {
+            System.out.print(", ");}
+        }
+        System.out.println("]");
     }
+     
+    
 
+}
 }
